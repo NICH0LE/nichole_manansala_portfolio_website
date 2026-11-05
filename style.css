@@ -405,6 +405,21 @@ a { text-decoration: none; color: inherit; }
   gap: 10px;
   margin-top: 8px;
 }
+.project-disclaimer {
+  background: rgba(108, 99, 255, 0.08);
+  border: 1px solid rgba(108, 99, 255, 0.3);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 40px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.project-disclaimer strong {
+  color: var(--accent-light);
+}
 
 /* ===========================
    EXPERIENCE
